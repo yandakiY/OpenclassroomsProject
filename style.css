@@ -2,6 +2,24 @@ h1{
     color:blue;
 }
 
-blockquote{
+.block{
+    color:white;
+    font-size: large;
+    font-weight: bold;
+    border:solid 2px black;
+    width: 450px;
+    background: linear-gradient(to top , rgb(208, 193, 193), rgb(223, 95, 95));
+    background-position: 100% 100%;
+    transition: all ease .8s;
+}
+
+.block:hover{
+    padding: 5px;
+    background: linear-gradient(to bottom , rgb(92, 85, 85), rgb(223, 95, 95));
+    color:black;
+    cursor: pointer;
+}
+
+blockquote {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
