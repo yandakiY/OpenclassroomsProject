@@ -5,8 +5,9 @@ h1{
 .block{
     color:white;
     font-size: large;
+    text-align: justify;
     font-weight: bold;
-    border:solid 2px black;
+    border:solid 1px black;
     width: 450px;
     background: linear-gradient(to top , rgb(208, 193, 193), rgb(223, 95, 95));
     background-position: 100% 100%;
