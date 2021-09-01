@@ -11,7 +11,7 @@ h1{
     width: 450px;
     background: linear-gradient(to bottom , rgb(92, 85, 85), rgb(223, 95, 95));
     background-position: 100% 100%;
-    transition: all ease .8s;
+    transition: all ease .5s;
 }
 
 .block:hover{
